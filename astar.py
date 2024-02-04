@@ -64,3 +64,5 @@ def print_path_in_grid(grid, path):
   # Print the grid with the path
   for row in grid_copy:
     print(' '.join(str(cell) for cell in row))
+
+  return grid_copy
